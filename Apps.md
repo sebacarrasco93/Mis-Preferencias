@@ -1,6 +1,6 @@
-# Listado de Softwares
+### Listado de Softwares
 
- - [ ] [iTerm 2](https://www.iterm2.com/)
+ - [ ] [iTerm](https://www.iterm2.com/)
  - [ ] [Sublime Text](https://www.sublimetext.com/)
  - [ ] [Google Chrome](https://www.google.com/chrome/)
  - [ ] [Google Chrome Canary](https://www.google.com/chrome/canary/)
@@ -12,11 +12,11 @@
  - [ ] [Keka](https://www.keka.io/en/)
  - [ ] [Authy Desktop](https://authy.com/download/)
 
-# Complementos
+### Complementos
  - [ ] [Json viewer (Necesita Chrome)](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es)
  - [ ] [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget)
 
-# Entretención
- - [ ] [Spotify/](https://www.spotify.com/)
+### Entretención
+ - [ ] [Spotify](https://www.spotify.com/)
  - [ ] [VLC](http://www.videolan.org/)
  - [ ] [WhatsApp Desktop](https://www.whatsapp.com/download/)
