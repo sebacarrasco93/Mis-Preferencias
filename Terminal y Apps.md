@@ -6,7 +6,9 @@
 ### Instalar Fish
 ```
 brew install fish
-
+```
+### Instalar Oh-My-Fish
+```
 curl -L https://get.oh-my.fish | fish
 ```
 ### Instalar Fish y guardar como shell predeterminada
@@ -44,7 +46,6 @@ alias t="phpunit"
 alias tf="t --filter"
 funcsave t
 funcsave tf
-
 ```
 > Reiniciar el terminal
 
@@ -68,5 +69,4 @@ valet park
 ```
 alias proyectos="cd ~/Proyectos"
 funcsave proyectos
-
 ```
