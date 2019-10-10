@@ -1,11 +1,9 @@
-### Posicionarse en carpeta base
-```
+```sh
+# Trabajar en la carpeta base
 mkdir ~/Desktop/Complementos-macOS
 cd ~/Desktop/Complementos-macOS
-```
 
-### Fira Code
-```
+# Fira Code
 git clone https://github.com/tonsky/FiraCode
 open ~/Desktop/Complementos-macOS/FiraCode/distr
 ```
