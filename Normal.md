@@ -1,51 +1,54 @@
-Instalar Brew
+### Instalar Brew
 
+```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-Instalar Fish
-
+```
+### Instalar Fish
+```
 brew install fish
 
 curl -L https://get.oh-my.fish | fish
-
-omf install edan
-
+```
+### Instalar fish y guardar como shell predeterminada
+```
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 
 chsh -s /usr/local/bin/fish
+````
+omf install edan
 
-<!-- pide la clave -->
+> Reiniciar el terminal
 
-<!-- reiniciar terminal -->
-
+### Agregar funciones
+```
 brew install php
 
 brew install composer
-
+```
+### Agregar rutas de Composer al directorio bin de macOS
+````
 omf install composer
-
+````
+### Instalar Laravel, Valet, PHP-CS-Fixer y PHPunit
+```
 composer global require laravel/valet laravel/installer friendsofphp/php-cs-fixer phpunit/phpunit
 
 valet install
+```
+> Reiniciar el terminal
 
-<!-- pide la clave -->
-
+### Instalar MySQL 5.7
+```
 brew install mysql@5.7
 
 brew services start mysql@5.7
 
 brew link mysql@5.7 --force
+```
 
-<!-- instalar sublime text -->
-
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-
-funcsave subl
-
-<!-- brillo: -->
-brew install brightness
-
+### Crear y establecer las rutas de Valet
+```
 mkdir ~/Sites
 cd ~/Sites
 valet park
-git@gitlab.com:superadmin/pidefacil.git
+```
