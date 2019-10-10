@@ -9,13 +9,16 @@ brew install fish
 
 curl -L https://get.oh-my.fish | fish
 ```
-### Instalar fish y guardar como shell predeterminada
+### Instalar Fish y guardar como shell predeterminada
 ```
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 
 chsh -s /usr/local/bin/fish
 ````
+### Instalar el tema Edan
+```
 omf install edan
+```
 
 > Reiniciar el terminal
 
@@ -35,6 +38,14 @@ composer global require laravel/valet laravel/installer friendsofphp/php-cs-fixe
 
 valet install
 ```
+### Agregar los atajos de PHPUnit
+```
+alias t="phpunit"
+alias tf="t --filter"
+funcsave t
+funcsave tf
+
+```
 > Reiniciar el terminal
 
 ### Instalar MySQL 5.7
@@ -48,7 +59,14 @@ brew link mysql@5.7 --force
 
 ### Crear y establecer las rutas de Valet
 ```
-mkdir ~/Sites
-cd ~/Sites
+mkdir ~/Proyectos
+cd ~/Proyectos
 valet park
+```
+
+### Agregar la ruta del proyecto
+```
+alias proyectos="cd ~/Proyectos"
+funcsave proyectos
+
 ```
