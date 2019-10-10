@@ -24,11 +24,11 @@ omf install edan
 
 > Reiniciar el terminal
 
-### Agregar funciones
+### Agregar apps (y actualizar lo que ya existe)
 ```
 brew install php
-
 brew install composer
+brew install git
 ```
 ### Agregar rutas de Composer al directorio bin de macOS
 ````
