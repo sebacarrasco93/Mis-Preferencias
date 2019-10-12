@@ -2,6 +2,7 @@
 
  - [ ] [iTerm](https://www.iterm2.com/)
  - [ ] [Sublime Text](https://www.sublimetext.com/)
+ - [ ] [Sequel Pro](https://www.sequelpro.com/)
  - [ ] [Google Chrome](https://www.google.com/chrome/)
  - [ ] [Google Chrome Canary](https://www.google.com/chrome/canary/)
  - [ ] [Telegram](https://desktop.telegram.org/)
