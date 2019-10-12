@@ -1,5 +1,4 @@
 ### Listado de Softwares
-
  - [ ] [iTerm](https://www.iterm2.com/)
  - [ ] [Sublime Text](https://www.sublimetext.com/)
  - [ ] [Sequel Pro](https://www.sequelpro.com/)
@@ -12,6 +11,7 @@
  - [ ] [Adobe XD](https://www.adobe.com/products/xd.html)
  - [ ] [Keka](https://www.keka.io/en/)
  - [ ] [Authy Desktop](https://authy.com/download/)
+ - [ ] [Node.js](https://nodejs.org/es/download/)
 
 ### Complementos
  - [ ] [Json viewer (Necesita Chrome)](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es)
