@@ -14,6 +14,8 @@
  - [ ] [Node.js](https://nodejs.org/es/download/)
 
 ### Complementos
+ - [ ] [Macs Fan Control](https://www.crystalidea.com/macs-fan-control/download)
+ - [ ] [Vue.js devtools (Necesita Chrome)](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
  - [ ] [Json viewer (Necesita Chrome)](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es)
  - [ ] [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget)
 
