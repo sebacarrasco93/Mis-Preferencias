@@ -41,7 +41,7 @@ omf install composer
 ```
 composer global require laravel/valet laravel/installer friendsofphp/php-cs-fixer phpunit/phpunit
 
-valet install
+sudo valet install
 ```
 ### Agregar atajos
 ```
@@ -61,6 +61,8 @@ alias nah="git checkout ."
 funcsave nah
 alias gcomm="git commit -m"
 funcsave gcomm
+alias gpush="git push"
+funcsave gpush
 ```
 > Reiniciar el terminal
 
