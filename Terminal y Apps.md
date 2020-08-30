@@ -31,7 +31,7 @@ omf install idan
 
 ### Agregar apps (y actualizar lo que ya existe)
 ```
-brew install php composer git yarn
+brew install php composer git yarn nvim
 ````
 ### Agregar rutas de Composer al directorio bin de macOS
 ```
