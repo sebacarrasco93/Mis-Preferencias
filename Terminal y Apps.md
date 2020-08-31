@@ -18,9 +18,10 @@ sudo echo /usr/local/bin/fish | sudo tee -a /etc/shells
 sudo chsh -s /usr/local/bin/fish # Para root
 chsh -s /usr/local/bin/fish # Para el usuario actual
 ````
-### Eliminar el mensaje de bienvenida de Fish
+### Eliminar los mensajes de bienvenida de Fish
 ```
 set fish_greeting
+touch ~/.hushlogin
 ```
 ### Instalar el tema Idan
 ```
