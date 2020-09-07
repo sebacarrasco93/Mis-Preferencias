@@ -1,7 +1,13 @@
 {
+    "material_theme_contrast_mode": true,
+    "overlay_scroll_bars": "enabled",
+    "font_options": [ "gray_antialias" ],
+    "always_show_minimap_viewport": true,
+    "bold_folder_labels": true,
+    "indent_guide_options": [ "draw_normal", "draw_active" ],
     "color_scheme": "Packages/Materialize/schemes/Material Dracula.tmTheme",
     "ensure_newline_at_eof_on_save": true,
-    "font_face": "Cascadia Code Regular Light",
+    "font_face": "Cascadia Code Regular",
     "font_size": 14,
     "ignored_packages":
     [
