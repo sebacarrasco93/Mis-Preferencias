@@ -36,14 +36,28 @@ brew install php composer git yarn nvim
 ````
 ### Agregar rutas de Composer al directorio bin de macOS
 ```
-omf install composer
+omf install composer sublime
 ````
 ### Instalar Laravel, Valet, PHP-CS-Fixer y PHPunit
 ```
 composer global require laravel/valet laravel/installer friendsofphp/php-cs-fixer phpunit/phpunit
-
+mkdir ~/Sites
+cd ~/Sites
 sudo valet install
+valet park
 ```
+
+> Reiniciar el terminal
+
+### Instalar MySQL 5.7
+```
+brew install mysql@5.7
+
+brew services start mysql@5.7
+
+brew link mysql@5.7 --force
+```
+
 ### Agregar atajos
 ```
 alias t="phpunit"
@@ -64,23 +78,6 @@ alias gcomm="git commit -m"
 funcsave gcomm
 alias gpush="git push"
 funcsave gpush
-```
-> Reiniciar el terminal
-
-### Instalar MySQL 5.7
-```
-brew install mysql@5.7
-
-brew services start mysql@5.7
-
-brew link mysql@5.7 --force
-```
-
-### Crear y establecer las rutas de Valet
-```
-mkdir ~/Sites
-cd ~/Sites
-valet park
 ```
 
 ### Agregar la ruta del proyecto
