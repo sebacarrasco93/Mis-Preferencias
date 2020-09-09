@@ -298,6 +298,7 @@
     }
   },
   "Window Type" : 0,
+  "Cursor Type" : 1,
   "Background Image Location" : "",
   "Blur" : false,
   "Badge Color" : {
@@ -352,7 +353,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.49803921580314636
   },
-  "Custom Directory" : "No",
+  "Custom Directory" : "Recycle",
   "Transparency" : 0.14470820685325586,
   "Guid" : "CB92A96B-BA3A-4CD2-9EB2-4545A15F9DF6",
   "Ansi 3 Color" : {
