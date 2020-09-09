@@ -21,4 +21,6 @@ alias gcomm="git commit -m"
 funcsave gcomm
 alias gpush="git push"
 funcsave gpush
+alias gpull="git pull"
+funcsave gpull
 ``
