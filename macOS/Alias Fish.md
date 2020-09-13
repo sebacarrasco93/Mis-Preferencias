@@ -27,6 +27,8 @@ alias gpush="git push"
 funcsave gpush
 alias gpull="git pull"
 funcsave gpull
+alias gads='git add . & git status'
+funcsave gads
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 funcsave gl
 alias f5="gadd && gcomm 'Cambio menor' && gpush"
