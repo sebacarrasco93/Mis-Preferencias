@@ -1,5 +1,12 @@
 # Fuentes
 
+# Nueva implementación
+Para guardar en la carpeta FuentesDescargadas
+```sh
+wget https://rubjo.github.io/victor-mono/VictorMonoAll.zip -P FuentesDescargadas
+
+```
+
 ```sh
 # Trabajar en la carpeta base (en el mismo escritorio)
 mkdir ~/Desktop/Fuentes
