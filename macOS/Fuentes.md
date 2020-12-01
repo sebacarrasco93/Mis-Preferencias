@@ -6,6 +6,7 @@ Para guardar en la carpeta FuentesDescargadas
 wget https://rubjo.github.io/victor-mono/VictorMonoAll.zip -P FuentesDescargadas
 mkdir FuentesDescargadas/VictorMonoAll
 unzip FuentesDescargadas/VictorMonoAll.zip -d FuentesDescargadas/VictorMonoAll/
+cp -R FuentesDescargadas/VictorMonoAll/TTF/*.ttf /Library/Fonts
 ```
 
 ```sh
@@ -15,7 +16,7 @@ cd ~/Desktop/Fuentes
 
 # Descargar e instalar Fira Code en el sistema
 git clone https://github.com/tonsky/FiraCode FiraCode
-cp -R ~/Desktop/Fuentes/FiraCode/distr/ttf /Library/Fonts
+cp -R ~/Desktop/Fuentes/FiraCode/distr/ttf/*.ttf /Library/Fonts
 
 ## Cascadia: https://github.com/microsoft/cascadia-code/releases/latest
 mkdir ~/Desktop/Fuentes/Cascadia

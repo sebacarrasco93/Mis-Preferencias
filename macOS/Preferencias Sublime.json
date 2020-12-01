@@ -1,21 +1,28 @@
 {
-    "material_theme_contrast_mode": true,
-    "overlay_scroll_bars": "enabled",
-    "font_options": [ "gray_antialias" ],
-    "always_show_minimap_viewport": true,
-    "bold_folder_labels": true,
-    "indent_guide_options": [ "draw_normal", "draw_active" ],
-    "color_scheme": "Packages/Materialize/schemes/Material Dracula.tmTheme",
+    "auto_complete": true,
+    "caret_extra_bottom": 4,
+    "caret_extra_top": 4,
+    "caret_extra_width": 2,
+    "caret_style": "phase",
+    "color_scheme": "Packages/Materialize/schemes/Material Spaceblack Oceanic.tmTheme",
     "ensure_newline_at_eof_on_save": true,
-    "font_face": "Cascadia Code Regular",
+    "font_face": "Victor Mono Regular",
     "font_size": 14,
     "ignored_packages":
     [
         // "Vintage"
     ],
-    "line_padding_bottom": 10,
-    "line_padding_top": 10,
+    "line_padding_bottom": 0,
+    "line_padding_top": 6,
+    "material_theme_accent_acid-lime": true,
+    "material_theme_accent_blue": true,
+    "material_theme_accent_orange": true,
+    "material_theme_bold_tab": true,
+    "material_theme_bullet_tree_indicator": true,
+    "material_theme_disable_fileicons": true,
+    "material_theme_tabs_autowidth": true,
     "save_on_focus_lost": true,
-    "theme": "Material Dracula.sublime-theme",
-    "translate_tabs_to_spaces": true
+    "theme": "Material Spaceblack.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_automatic_white_space": true
 }
