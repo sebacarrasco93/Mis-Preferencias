@@ -1,12 +1,15 @@
 # Fuentes
 
-# Nueva implementación
+## Nueva implementación
 Para guardar en la carpeta FuentesDescargadas
 ```sh
-wget https://rubjo.github.io/victor-mono/VictorMonoAll.zip -P FuentesDescargadas
-mkdir FuentesDescargadas/VictorMonoAll
-unzip FuentesDescargadas/VictorMonoAll.zip -d FuentesDescargadas/VictorMonoAll/
-cp -R FuentesDescargadas/VictorMonoAll/TTF/*.ttf /Library/Fonts
+set carpeta 'FuentesDescargadas'
+
+# Victor Mono
+wget https://rubjo.github.io/victor-mono/VictorMonoAll.zip -P $carpeta
+mkdir $carpeta/VictorMonoAll
+unzip $carpeta/VictorMonoAll.zip -d $carpeta/VictorMonoAll/
+cp -R $carpeta/VictorMonoAll/TTF/*.ttf /Library/Fonts
 ```
 
 ```sh
