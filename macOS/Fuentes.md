@@ -4,7 +4,8 @@
 Para guardar en la carpeta FuentesDescargadas
 ```sh
 wget https://rubjo.github.io/victor-mono/VictorMonoAll.zip -P FuentesDescargadas
-
+mkdir FuentesDescargadas/VictorMonoAll
+unzip FuentesDescargadas/VictorMonoAll.zip -d FuentesDescargadas/VictorMonoAll/
 ```
 
 ```sh
