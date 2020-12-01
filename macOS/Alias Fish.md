@@ -35,4 +35,4 @@ alias f5="gadd && gcomm 'Cambio menor' && gpush"
 funcsave f5
 alias llavessh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 funcsave llavessh
-``
+```
