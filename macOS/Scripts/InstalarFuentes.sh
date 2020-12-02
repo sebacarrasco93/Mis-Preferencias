@@ -12,7 +12,14 @@ unzip $CARPETA/$NOMBREFUENTE.zip -d $CARPETA/$NOMBREFUENTE/
 cp -R $CARPETA/$NOMBREFUENTE/TTF/*.ttf /Library/Fonts
 
 # Fira Code
-echo "Instalando Fira Code..."
 NOMBREFUENTE='FiraCode'
+echo "Instalando $NOMBREFUENTE..."
 git clone https://github.com/tonsky/FiraCode $CARPETA/$NOMBREFUENTE
 cp -R $CARPETA/$NOMBREFUENTE/distr/ttf/*.ttf /Library/Fonts
+
+NOMBREFUENTE='Cascadia'
+echo "Instalando $NOMBREFUENTE..."
+NOMBREARCHIVO=CascadiaCode-2008.25.zip
+wget https://github.com/microsoft/cascadia-code/releases/download/v2008.25/$ARCHIVO -P $CARPETA
+unzip $CARPETA/$NOMBREARCHIVO -d $CARPETA/$NOMBREFUENTE/
+cp -R $CARPETA/$NOMBREFUENTE/ttf/*.ttf /Library/Fonts
