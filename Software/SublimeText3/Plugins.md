@@ -1,2 +1,3 @@
-[x] PlainTasks
-[x] PHP Companion
+- [x] PlainTasks
+- [x] PHP Companion
+- [x] Sass
