@@ -37,4 +37,6 @@ alias llavessh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 funcsave llavessh
 alias yw="yarn watch"
 funcsave yw
+alias amend="git commit --amend -m"
+funcsave amend
 ```
