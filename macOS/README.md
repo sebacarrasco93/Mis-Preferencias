@@ -8,4 +8,4 @@ Ejecutar en el siguiente orden
 | 2 | [Fuentes](Fuentes.md)  |
 | 3 | [Sistema](Sistema.md)  |
 | 4 | [Alias Fish](Alias%20Fish.md)  |
-| 4 | [Solucion Provisoria Control Package macOS 11.md](Solucion%20Provisoria%20Control%20Package%20macOS%2011.md    |
+| 4 | [Solucion Provisoria Control Package macOS 11.md](Solucion%20Provisoria%20Control%20Package%20macOS%2011.md)    |
