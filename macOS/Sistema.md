@@ -9,6 +9,8 @@ killall SystemUIServer
 ```
 
 ### Agregar llave SSH
-ssh-keygen -t rsa -b 2048 -C "<Comentario>"
-git config --global user.name "<El nombre aquí>"
-git config --global user.email "<El email aquí>"
+```sh
+ssh-keygen -t rsa -b 2048 -C "{Descripción}"
+git config --global user.name "{nombre}"
+git config --global user.email "{email}"
+```
