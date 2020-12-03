@@ -1,3 +1,4 @@
 - [x] PlainTasks
 - [x] PHP Companion
 - [x] Sass
+- [x] Emmet
