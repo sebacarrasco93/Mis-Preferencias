@@ -2,3 +2,4 @@
 - [x] PHP Companion
 - [x] Sass
 - [x] Emmet
+- [x] PHPUnit Completions
