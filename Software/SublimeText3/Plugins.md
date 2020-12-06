@@ -3,3 +3,4 @@
 - [x] Sass
 - [x] Emmet
 - [x] PHPUnit Completions
+- [x] DotENV
