@@ -10,7 +10,12 @@ killall SystemUIServer
 
 ### Agregar llave SSH
 ```sh
-ssh-keygen -t rsa -b 2048 -C "{Descripción}"
+ssh-keygen -t ed25519 -C "Desarrollo {nombre}"
 git config --global user.name "{nombre}"
 git config --global user.email "{email}"
+```
+
+### Copiar llave a portapapeles
+```ssh
+pbcopy < ~/.ssh/id_ed25519.pub
 ```

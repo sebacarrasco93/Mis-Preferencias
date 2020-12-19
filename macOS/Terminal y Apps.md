@@ -49,9 +49,9 @@ valet park
 
 > Reiniciar el terminal
 
-### Instalar MySQL 5.7
+### Instalar MySQL
 ```sh
-brew install mysql@5.7
-brew services start mysql@5.7
-brew link mysql@5.7 --force
+brew install mysql
+brew services start mysql
+brew link mysql --force
 ```
