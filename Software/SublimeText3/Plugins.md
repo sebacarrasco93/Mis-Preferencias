@@ -5,3 +5,4 @@
 - [x] PHPUnit Completions
 - [x] DotENV
 - [x] AdvancedNewFile
+- [x] Laravel Blade Highlighter
