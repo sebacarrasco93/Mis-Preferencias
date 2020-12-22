@@ -4,3 +4,4 @@
 - [x] Emmet
 - [x] PHPUnit Completions
 - [x] DotENV
+- [x] AdvancedNewFile
