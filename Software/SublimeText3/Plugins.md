@@ -6,3 +6,4 @@
 - [x] DotENV
 - [x] AdvancedNewFile
 - [x] Laravel Blade Highlighter
+- [x] Vue Syntax Highlight
