@@ -7,14 +7,20 @@ alias phpunit="vendor/bin/phpunit"
 funcsave phpunit
 alias pest="vendor/bin/pest"
 funcsave pest
+alias dusk="php artisan dusk"
+funcsave dusk
 alias t="phpunit"
 funcsave t
 alias p="pest"
 funcsave p
+alias d="dusk"
+funcsave d
 alias art="php artisan"
 funcsave art
 alias tf="t --filter"
 funcsave tf
+alias df="dusk --filter"
+funcsave df
 alias gadd="git add ."
 funcsave gadd
 alias gs="git status"
