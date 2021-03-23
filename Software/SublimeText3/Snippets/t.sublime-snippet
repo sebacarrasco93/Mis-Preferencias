@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+/** @test */
+function ${1:nombre}() {
+    ${2://}
+}
+]]></content>
+    <tabTrigger>t</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$${1:variable} = ${1/(.+)/\u$1/g}::factory()->create(${3});
+]]></content>
+    <tabTrigger>f</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
