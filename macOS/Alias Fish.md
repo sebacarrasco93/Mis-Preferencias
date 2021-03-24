@@ -45,4 +45,6 @@ alias yw="yarn watch"
 funcsave yw
 alias amend="git commit --amend -m"
 funcsave amend
+alias rutasubl "open ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User"
+funcsave rutasubl
 ```
